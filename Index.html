@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caracteristicas Telegram</title>
+    <link rel="icon" href="telegram.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #0088cc;
+            color: white;
+            padding: 20px 0;
+            text-align: left;
+            display: flex;
+            align-items: center;
+        }
+
+        header img {
+            width: 50px;
+            height: auto;
+            margin-right: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header p {
+            margin: 0;
+        }
+
+        .top-menu {
+            background-color: #333;
+            padding: 10px;
+            text-align: right;
+            color: white;
+        }
+
+        .top-menu img {
+            height: 30px; 
+            margin-right: 10px;
+        }
+
+        .top-menu span {
+            margin-right: 10px;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        .container {
+            margin: 20px;
+        }
+
+        .section-title {
+            color: #0088cc;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .section-content {
+            margin-bottom: 20px;
+        }
+
+        .ads-banner-left {
+            position: fixed;
+            top: 20%;
+            left: 0;
+            background-color: #ffcc00;
+            padding: 15px;
+            width: 250px;
+            box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            display: block;
+        }
+
+        .ads-banner-left .close-btn {
+            color: #000;
+            font-size: 20px;
+            font-weight: bold;
+            position: absolute;
+            top: 5px;
+            right: 10px;
+            cursor: pointer;
+        }
+
+        .ads-banner-left img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .social-icons a {
+            color: white;
+            margin: 0 10px;
+            font-size: 18px;
+            text-decoration: none;
+        }
+
+        .social-icons a:hover {
+            color: #0088cc;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 260px;
+        }
+
+        .content .card {
+            background-color: white;
+            width: 48%;
+            margin: 1%;
+            padding: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .card h3 {
+            color: #0088cc;
+        }
+
+        .card p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-menu">
+        <img src="llamada.png" alt="Teléfono"style="height: 20px;">
+        <span>8342824984</span> 
+        <img src="whatsapp.png" alt="WhatsApp" style="height: 30px;">
+        <span>WhatsApp</span>
+    </div>
+
+    <div id="ad-banner" class="ads-banner-left">
+        <span class="close-btn" onclick="cerraranuncio()">X</span>
+        <center><h2><p>¡Mira la champions!</p></h2></center>
+        <a href="https://es.uefa.com/uefachampionsleague/"><img src="anuncio.jpg"  alt="LA CHAMPIONS"></a>
+    </div>
+
+    <header>
+        <img src="telegram.png" alt="Telegram Logo">
+        <div>
+            <h1>Telegram</h1>
+            <p>La mejor plataforma de mensajería rápida, segura y gratuita</p>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="https://desktop.telegram.org">Descargar</a>
+        <a href="#">Historia</a>
+        <a href="https://telegram.org/support?setln=es">Soporte Telegram</a>
+        <a href="https://www.facebook.com/jwsu.Tobar">Contactanos</a>
+    </nav>
+
+    <div class="container">
+        <div class="content">
+            <div class="card">
+                <h3>¿Qué es Telegram?</h3>
+                <p>Telegram es una aplicación de mensajería instantánea para dispositivos 
+                    electrónicos lanzada en el año 2013 por los hermanos Nikolái y Pável Dúrov como una 
+                    alternativa a la aplicación WhatsApp.  Cuenta con más de 400 millones de usuarios activos alrededor 
+                    del mundo y se destaca por su sistema de seguridad y velocidad al envío de mensajes.</p>
+            </div>
+
+            <div class="card">
+                <h3>Caracteristicas de Telegram</h3>
+                <p><h2>Transparencia</h2>
+                    Código abierto: Telegram es parcialmente de código abierto, lo que significa que su código está 
+                    disponible para que los desarrolladores lo revisen y modifiquen. Aunque el servidor principal no es 
+                    completamente abierto, los clientes (aplicaciones de usuario) lo son.
+                    Política de privacidad clara: Telegram tiene una política de privacidad bastante detallada, que 
+                    especifica cómo maneja los datos de los usuarios y qué se comparte con terceros.
+                    <h2>Colaboración</h2>
+                    Canales y grupos: Telegram permite crear canales y grupos, facilitando la colaboración en equipos grandes. Los grupos pueden tener 
+                    hasta 200,000 miembros, lo que permite una gran capacidad de interacción.
+                    Bots: Los bots de Telegram permiten la automatización de tareas, la integración de servicios de terceros y la creación de experiencias 
+                    colaborativas dentro de la app.
+                    Compartir archivos y multimedia: Es posible compartir documentos, fotos, videos, y otros tipos de archivos (hasta 2GB por archivo), 
+                    lo que facilita el trabajo colaborativo.
+                    <h2>Flexibilidad</h2>
+                    Multiplataforma: Telegram está disponible en múltiples plataformas, incluyendo dispositivos móviles, de escritorio y web. La 
+                    sincronización entre dispositivos es casi en tiempo real.
+                    Personalización: Los usuarios pueden personalizar las notificaciones, temas, y la apariencia de la app a su gusto. Además, hay 
+                    una amplia gama de bots y stickers personalizados que amplían las funcionalidades.
+                    Mensajes autodestructivos: Telegram ofrece una función de "Chats Secretos", donde los mensajes se destruyen automáticamente después 
+                    de un tiempo determinado.
+                    <h2>Seguridad</h2>
+                    Cifrado end-to-end: Telegram ofrece cifrado de extremo a extremo en los "Chats Secretos", lo que significa que solo el emisor y el 
+                    receptor pueden leer los mensajes.
+                    Cifrado en la nube: Los mensajes en chats regulares (no secretos) están cifrados en la nube, lo que mejora la accesibilidad pero 
+                    puede ser menos privado que el cifrado de extremo a extremo.
+                    Verificación en dos pasos: Telegram permite habilitar la autenticación en dos pasos para una mayor seguridad de las cuentas.
+                    Código fuente transparente: Al ser de código abierto en gran parte, los expertos en seguridad pueden auditar la app y asegurar que 
+                    no haya vulnerabilidades ocultas.
+                    <h2>Costos</h2>
+                    Gratis: Telegram es completamente gratuito, sin anuncios, y no hay costos adicionales por el uso de las funciones principales.
+                    No requiere suscripción: A diferencia de algunas aplicaciones de mensajería, Telegram no tiene una suscripción premium; todas las 
+                    funciones están disponibles para todos los usuarios sin costo alguno.</p>
+            </div>
+
+            <div class="card">
+                <h3>Proposito, tipo de licencia, etc.</h3>
+                <p>Telegram es una plataforma de mensajería que tiene como propósito ofrecer una comunicación rápida, segura y flexible. Su principal objetivo es permitir a los usuarios conectarse de manera eficiente sin limitaciones de tamaño de archivo o de capacidad de los grupos, mientras mantiene un fuerte enfoque en la privacidad y la seguridad. Además, Telegram fomenta la libre expresión y la colaboración mediante la creación de grupos, canales y bots, lo que lo convierte en una herramienta muy popular tanto para usuarios individuales como para equipos de trabajo y comunidades.
+                    <br><br>
+                    En cuanto a la licencia, Telegram adopta un modelo de código abierto para los clientes de la aplicación (tanto móviles como de escritorio). El código fuente de estas aplicaciones está disponible en GitHub, bajo la licencia GNU General Public License (GPL) v3, lo que permite a los desarrolladores revisar, modificar y redistribuir el código bajo ciertas condiciones. Sin embargo, el servidor que gestiona las comunicaciones de Telegram no es de código abierto, lo que significa que los desarrolladores no pueden acceder a la infraestructura subyacente de la plataforma.
+                    <br><br>
+                    Para contribuir al proyecto, los desarrolladores pueden hacerlo principalmente con respecto a los clientes de Telegram. Para ello, deben tener conocimientos en lenguajes como C++ (para el cliente de escritorio), Java/Kotlin (para Android) y Swift (para iOS). Los interesados pueden acceder al código en GitHub, realizar un "fork", modificar el código y luego enviar un "pull request" para que sea revisado por el equipo de Telegram. Es fundamental seguir las directrices de codificación establecidas por la comunidad y la documentación disponible en el repositorio.
+                    <br><br>
+                    La comunidad del proyecto Telegram está organizada de manera que fomenta la colaboración activa. A través de sus canales y grupos oficiales en la misma plataforma de Telegram, los desarrolladores pueden discutir novedades, resolver problemas técnicos y compartir experiencias. Además, el proyecto tiene una presencia activa en GitHub, donde los desarrolladores pueden contribuir al código y participar en debates relacionados con mejoras y nuevas características. Aunque Telegram también ha lanzado iniciativas como Telegram Open Network (TON), que está relacionada con la blockchain, la comunidad principal sigue centrada en la mejora de la app de mensajería, manteniendo un enfoque transparente y accesible para todos sus usuarios y colaboradores.</p>
+            </div>
+
+            <div class="card">
+                <h3>Sugerencias</h3>
+                <p>Me gustaría sugerir una mejora en la gestión de notificaciones para grupos de gran tamaño 
+                    Actualmente, los miembros de estos grupos reciben notificaciones de cada mensaje, lo cual puede resultar abrumador 
+                    para los usuarios que no están activos de manera constante en el grupo, deberian implementar alguna opcion para 
+                    ser notificados solo cuando son mencionados, otra opcion seria que solo notifique cada cierto tiempo, ya que en telegram
+                    solo se puede silenciar para siempre, y no surante cierto tiempo establecido.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 UPV Jasso es un pendejo | Todos los derechos reservados.</p>
+        <div class="social-icons">
+            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+    </footer>
+
+    <script>
+        function cerraranuncio() {
+            document.getElementById('ad-banner').style.display = 'none';
+        }
+    </script>
+
+</body>
+</html>
