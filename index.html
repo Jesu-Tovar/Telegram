@@ -71,7 +71,10 @@
         }
 
         .container {
+            display: flex;
+            justify-content: space-between;
             margin: 20px;
+            flex-wrap: nowrap;
         }
 
         .section-title {
@@ -134,15 +137,12 @@
         }
 
         .content {
-            display: flex;
-            flex-wrap: wrap;
-            margin-left: 260px;
+            flex: 0 0 70%;
         }
 
         .content .card {
             background-color: white;
-            width: 48%;
-            margin: 1%;
+            margin-bottom: 20px;
             padding: 15px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
@@ -154,11 +154,35 @@
         .card p {
             font-size: 16px;
         }
+
+        .news-sidebar {
+            flex: 0 0 25%;
+            margin-left: 20px;
+        }
+
+        .news-card {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+            font-size: 12px;
+        }
+
+        .news-card h4 {
+            color: #0088cc;
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+
+        .news-card p {
+            color: #666;
+        }
+
     </style>
 </head>
 <body>
     <div class="top-menu">
-        <img src="llamada.png" alt="Teléfono"style="height: 20px;">
+        <img src="llamada.png" alt="Teléfono" style="height: 20px;">
         <span>8342824984</span> 
         <img src="whatsapp.png" alt="WhatsApp" style="height: 30px;">
         <span>WhatsApp</span>
@@ -167,7 +191,7 @@
     <div id="ad-banner" class="ads-banner-left">
         <span class="close-btn" onclick="cerraranuncio()">X</span>
         <center><h2><p>¡Mira la champions!</p></h2></center>
-        <a href="https://es.uefa.com/uefachampionsleague/"><img src="anuncio.jpg"  alt="LA CHAMPIONS"></a>
+        <a href="https://es.uefa.com/uefachampionsleague/"><img src="anuncio.jpg" alt="LA CHAMPIONS"></a>
     </div>
 
     <header>
@@ -250,6 +274,29 @@
                     para los usuarios que no están activos de manera constante en el grupo, deberian implementar alguna opcion para 
                     ser notificados solo cuando son mencionados, otra opcion seria que solo notifique cada cierto tiempo, ya que en telegram
                     solo se puede silenciar para siempre, y no surante cierto tiempo establecido.</p>
+            </div>
+        </div>
+
+        <div class="news-sidebar">
+            <div class="news-card">
+                <a href="https://atomix.vg/telegram-anade-nfts-filtros-de-busqueda-y-verificacion-por-terceros/"><h4>Telegram lanza nuevas funciones</h4></a>
+                <p>Telegram introduce opciones de personalización avanzadas... La nueva actualización permitirá...</p>
+               <center><img src="anunciodos.png" width="200" height="100"></center>
+            </div>
+            <div class="news-card">
+                <a href="https://es.wired.com/articulos/telegram-moderara-chats-privados-tras-detencion-pavel-durov"><h4>Telegram aumenta su seguridad</h4></a>
+                <p>Telegram ha mejorado el cifrado de extremo a extremo... nuevas opciones para mayor privacidad...</p>
+                <center><img src="anunciotres.jpeg" width="200" height="100"></center>
+            </div>
+            <div class="news-card">
+                <a href="https://www.xatakamovil.com/listas/bots-telegram-como-encontrarlos-23-opciones-recomendadas"><h4>Más bots en Telegram</h4></a>
+                <p>Los bots de Telegram ahora pueden realizar nuevas tareas... Integración con servicios populares como...</p>
+                <center><img src="anunciocuatro.webp" width="200" height="100"></center>
+            </div>
+            <div class="news-card">
+                <a href="https://www.debate.com.mx/tecnologia/Telegram-en-todos-estos-dispositivos-puedes-usar-la-app-de-mensajeria-20230408-0176.html"><h4>Telegram en nuevos dispositivos</h4></a>
+                <p>Telegram se está expandiendo a más plataformas... próximamente podrás usar la app en...</p>
+                <center><img src="anunciocinco.webp" width="200" height="100"></center>
             </div>
         </div>
     </div>
